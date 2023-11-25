@@ -1,0 +1,20 @@
+9
+P
+P OR R
+-Q OR R OR S
+Q OR R OR S
+-Q OR -R
+-P OR S
+-P
+S
+P OR R OR S
+8
+R OR S
+-P OR -Q OR S
+-R
+-P OR Q OR S
+-Q
+P OR -Q OR S
+Q OR R
+{}
+YES
