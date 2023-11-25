@@ -11,13 +11,13 @@ class IO:
         # Determine the output file path and open it
         output_file_path = self.input_file_path.replace("input", "output")
         os.makedirs(os.path.dirname(output_file_path), exist_ok=True)
-        self.output_file = open(output_file_path, 'w')  # Open for appending
+        self.output_file = open(output_file_path, 'w') 
         self.line = 0
 
     def __enter__(self):
         return self
 
-    def __exit__(self, exc_type, exc_val, exc_tb):
+    def __exit__(self):
         self.close()
 
     def close(self):

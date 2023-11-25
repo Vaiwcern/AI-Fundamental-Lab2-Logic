@@ -35,7 +35,6 @@ class KnowledgeBase:
                             if (res[1].key() not in clause_map
                                 and res[1].key() not in resolvents): 
                                 resolvents[res[1].key()] = res[1]
-                                # print(C1, "|", C2, "|", res[1])
                                 found_new = True
 
             lst_KB.append(KnowledgeBase(resolvents.values()))
