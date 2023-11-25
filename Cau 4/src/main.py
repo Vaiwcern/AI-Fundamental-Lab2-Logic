@@ -1,8 +1,5 @@
 import sys
-from Atom import Atom
-from Clause import Clause
 from IO import IO  
-from KnowledgeBase import KnowledgeBase
 
 def main(file_path):
     # input/output manager

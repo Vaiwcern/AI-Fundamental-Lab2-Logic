@@ -1,5 +1,5 @@
-from Clause import Clause
 from typing import List
+from Clause import Clause
 
 class KnowledgeBase: 
     def __init__(self, list_clause: List[Clause]) -> None:

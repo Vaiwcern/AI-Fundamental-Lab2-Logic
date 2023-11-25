@@ -1,5 +1,5 @@
-from Atom import Atom
 from typing import List
+from Atom import Atom
 
 class Clause: 
     def __init__(self, list_Atom: List[Atom]) -> None:
