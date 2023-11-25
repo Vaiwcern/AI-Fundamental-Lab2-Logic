@@ -4,13 +4,6 @@ class Atom:
     
     def __str__(self) -> str:
         return self.value
-
-    # def sameElement(self, other) -> bool: 
-    #     return self.value[-1] == other.value[-1]
-    
-    # def isOpposite(self, other) -> bool: 
-    #     return (len(self.value) + len(other.value) == 3 
-    #             and self.sameElement(other))
     
     def getOpposite(self): 
         if self.value[0] == '-': 

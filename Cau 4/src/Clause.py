@@ -20,11 +20,15 @@ class Clause:
 
     def isEmpty(self) -> bool: 
         return len(self.list_Atom) == 0
+    
+    def key(self) -> str: 
+        return ' '.join(str(atom) for atom in self.list_Atom)
 
     def PL_resolve(self, other : 'Clause'): 
         pos = [False for _ in range(26)]
         neg = [False for _ in range(26)]
 
+        cnt_complementary = 0
         totalClause = self.list_Atom + other.list_Atom
         for atom in totalClause:
             num = atom.getNum()
@@ -32,8 +36,12 @@ class Clause:
                 neg[num] = True
             else: 
                 pos[num] = True
+            if neg[num] and pos[num]: 
+                cnt_complementary += 1
         
-        resolvable = False
+        if cnt_complementary != 1: 
+            return [False, []]
+
         newList = []
         for i in range(26): 
             if pos[i] != neg[i]: 
@@ -41,10 +49,6 @@ class Clause:
                 if neg[i]: 
                     atom = '-' + atom
                 newList.append(Atom(atom))
-            if pos[i] == neg[i] and pos[i] == 1: 
-                resolvable = True
 
-        if not resolvable: 
-            return [False, []]
         return [True, Clause(newList)]
             

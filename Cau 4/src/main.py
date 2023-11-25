@@ -5,16 +5,18 @@ from IO import IO
 from KnowledgeBase import KnowledgeBase
 
 def main(file_path):
-    records_main = IO(file_path)
+    # input/output manager
+    myClerk = IO(file_path)
 
-    alpha = records_main.readClause()
-    KB = records_main.readKB()
+    # read input
+    alpha = myClerk.readClause()
+    KB = myClerk.readKB()
+    
+    # PL-Resolution
     result = KB.PL_resolution(alpha)
 
-    if (result[0] == True):
-        for x in result[1]: 
-            records_main.writeKB(x)
-    print(result[0])
+    # write output
+    myClerk.writeRes(result)
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:

@@ -1,2 +1,0 @@
-A    OR B OR -C
--B OR C    OR -A
