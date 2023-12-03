@@ -1,4 +1,0 @@
-1
--D OR E OR -F OR -H
-0
-NO

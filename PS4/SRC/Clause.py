@@ -4,6 +4,7 @@ from Literal import Literal
 class Clause: 
     def __init__(self, list_Atom: List[Literal]) -> None:
         self.list_Atom = list_Atom
+        self.sort();
 
     def __str__(self) -> str:
         if self.isEmpty(): 

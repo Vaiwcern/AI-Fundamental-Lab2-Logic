@@ -23,6 +23,8 @@ class KnowledgeBase:
         while True: 
             resolvents = {}
             
+            lst = []
+
             found_new = False
             for key1, C1 in clause_map.items(): 
                 for key2, C2 in clause_map.items():
@@ -37,10 +39,12 @@ class KnowledgeBase:
                                 resolvents[res[1].key()] = res[1]
                                 found_new = True
 
+                                lst.append([C1, C2, res[1]])
+
             lst_KB.append(KnowledgeBase(resolvents.values()))
             for key, value in resolvents.items(): 
                 clause_map[key] = value
-
+    
             if collision_found or not found_new: 
                 break
 

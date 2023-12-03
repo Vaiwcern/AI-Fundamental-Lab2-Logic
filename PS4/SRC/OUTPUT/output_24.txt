@@ -1,5 +1,0 @@
-2
--B OR C OR -G OR H
--B
-0
-NO

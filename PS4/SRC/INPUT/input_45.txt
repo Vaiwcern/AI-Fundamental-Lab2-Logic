@@ -1,5 +1,0 @@
--A
-3
-C OR -G OR E OR -F
--A
--H OR D

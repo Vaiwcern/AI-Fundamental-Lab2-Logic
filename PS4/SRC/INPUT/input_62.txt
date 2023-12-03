@@ -1,9 +1,0 @@
-B OR -F OR C OR E
-7
--G OR -A OR -F
-G
--H OR B OR -E OR -G OR A
-B OR -F OR C OR E
--B OR -G
--D
-F OR -G

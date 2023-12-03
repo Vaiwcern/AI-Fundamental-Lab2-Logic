@@ -1,5 +1,0 @@
-3
-A OR -C
-A OR -B OR -D OR -E OR -G
-{}
-YES

@@ -1,8 +1,6 @@
--A OR C
-6
-G
--A OR C
-H OR B OR F OR -D OR C
--C OR B OR -G OR -E
-A OR B OR F OR -C
--H OR E
+C OR D OR E OF G OR -H
+4
+C OR D OR E OR G OR -H
+B OR -C OR -D OR -G OR -H
+B OR E OR G OR H
+D

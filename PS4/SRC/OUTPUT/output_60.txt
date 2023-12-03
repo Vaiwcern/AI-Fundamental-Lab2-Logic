@@ -1,6 +1,0 @@
-3
-A OR C OR -D OR -H
-A OR C OR -D OR -G OR -H
-A OR -D OR -G OR -H
-0
-NO

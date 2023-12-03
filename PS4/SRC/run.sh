@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Navigate to the directory where the test cases are stored
-cd SRC/INPUT
+cd INPUT
 
 # Loop over each .txt file in the directory
 for file in *.txt
