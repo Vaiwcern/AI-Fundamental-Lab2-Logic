@@ -10,6 +10,7 @@ class IO:
 
         # Determine the output file path and open it
         output_file_path = self.input_file_path.replace("input", "output")
+        output_file_path = output_file_path.replace("INPUT", "OUTPUT")
         os.makedirs(os.path.dirname(output_file_path), exist_ok=True)
         self.output_file = open(output_file_path, 'w') 
         self.line = 0
