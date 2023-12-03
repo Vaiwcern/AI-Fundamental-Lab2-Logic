@@ -1,5 +1,5 @@
 import os
-from Atom import Atom
+from Literal import Literal
 from Clause import Clause
 from KnowledgeBase import KnowledgeBase
 
@@ -14,9 +14,9 @@ class IO:
 
         # Determine the output file path
         output_file_name = f"output_{test_case_number}"  # e.g., 'output_1.txt'
-        output_directory = os.path.join(os.path.dirname(os.path.dirname(self.input_file_path)), "OUTPUT")
+        output_directory = os.path.join(os.path.dirname(os.path.dirname(self.input_file_path)), '..', "OUTPUT")
         os.makedirs(output_directory, exist_ok=True)
-        output_file_path = os.path.join('..', output_directory, output_file_name)
+        output_file_path = os.path.join(output_directory, output_file_name)
 
         # Open the output file for writing
         self.output_file = open(output_file_path, 'w')
@@ -43,7 +43,7 @@ class IO:
         list_Atom = []
         for str in lst: 
             if str != "OR": 
-                list_Atom.append(Atom(str))
+                list_Atom.append(Literal(str))
         return Clause(list_Atom)
     
     def readKB(self) -> KnowledgeBase: 

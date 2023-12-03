@@ -1,4 +1,4 @@
-class Atom: 
+class Literal: 
     def __init__(self, value) -> None:
         self.value = value
     

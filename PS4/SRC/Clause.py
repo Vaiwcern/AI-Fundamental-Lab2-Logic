@@ -1,8 +1,8 @@
 from typing import List
-from Atom import Atom
+from Literal import Literal
 
 class Clause: 
-    def __init__(self, list_Atom: List[Atom]) -> None:
+    def __init__(self, list_Atom: List[Literal]) -> None:
         self.list_Atom = list_Atom
 
     def __str__(self) -> str:
@@ -48,7 +48,7 @@ class Clause:
                 atom = chr(ord('A') + i)
                 if neg[i]: 
                     atom = '-' + atom
-                newList.append(Atom(atom))
+                newList.append(Literal(atom))
 
         return [True, Clause(newList)]
             
