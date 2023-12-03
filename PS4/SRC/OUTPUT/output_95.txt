@@ -1,0 +1,20 @@
+7
+B OR -D OR E OR F OR -G
+-B
+-B OR C
+F
+G
+C OR F
+D
+10
+A OR B OR -D OR E
+A OR B OR E OR -G
+-A OR -D OR E OR F OR -G
+{}
+B OR -D OR E OR F
+B OR E OR F OR -G
+A OR -D OR E OR -G
+-D OR E OR F OR -G
+A OR C OR -D OR E OR -G
+C OR -D OR E OR F OR -G
+YES

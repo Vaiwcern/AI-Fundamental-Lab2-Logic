@@ -8,12 +8,20 @@ class IO:
         self.input_file_path = input_file_path
         self.input_file = open(self.input_file_path, 'r')
 
-        # Determine the output file path and open it
-        output_file_path = self.input_file_path.replace("input", "output")
-        output_file_path = output_file_path.replace("INPUT", "OUTPUT")
-        os.makedirs(os.path.dirname(output_file_path), exist_ok=True)
-        self.output_file = open(output_file_path, 'w') 
+        # Extract the test case number from the input file name
+        base_name = os.path.basename(self.input_file_path)  # e.g., 'input_1.txt'
+        test_case_number = base_name.split('_')[1]  # e.g., '1.txt'
+
+        # Determine the output file path
+        output_file_name = f"output_{test_case_number}"  # e.g., 'output_1.txt'
+        output_directory = os.path.join(os.path.dirname(os.path.dirname(self.input_file_path)), "OUTPUT")
+        os.makedirs(output_directory, exist_ok=True)
+        output_file_path = os.path.join('..', output_directory, output_file_name)
+
+        # Open the output file for writing
+        self.output_file = open(output_file_path, 'w')
         self.line = 0
+
 
     def __enter__(self):
         return self

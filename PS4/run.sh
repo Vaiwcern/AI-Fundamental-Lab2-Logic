@@ -1,9 +1,14 @@
 #!/bin/bash
 
-# Loop from 1 to 5
-for i in {1..5}
+# Navigate to the directory where the test cases are stored
+cd SRC/INPUT
+
+# Loop over each .txt file in the directory
+for file in *.txt
 do
-   echo "Running test case $i..."
-   python "SRC/main.py" "SRC/INPUT/input_$i.txt"
+   echo "Running test case $file..."
+   python "../main.py" "$file"
 done
 
+# Navigate back to the original directory
+cd -

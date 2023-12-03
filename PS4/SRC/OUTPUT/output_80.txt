@@ -1,0 +1,20 @@
+11
+-B OR C OR -G OR H
+-B OR -F OR H
+-B OR -F OR -G OR H
+-B OR C OR H
+-C OR -G
+-C
+-C OR -F
+G
+-E OR -G
+-E
+-F
+6
+-B OR C OR -F OR H
+-B OR -G OR H
+-B OR H
+-E OR -F
+-G
+{}
+YES

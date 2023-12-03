@@ -1,0 +1,37 @@
+6
+B OR -D OR -E OR -F OR G
+-E OR -F OR G
+-C OR -E OR -F
+-C OR -E OR G
+-C OR -F OR G
+C OR -D
+13
+-D OR -E OR -F OR G
+B OR -D OR -E OR -F
+B OR -D OR -E OR G
+B OR -D OR -F OR G
+-E OR -F
+-E OR G
+-F OR G
+-C OR -E
+-C OR -F
+-D OR -E OR -F
+-C OR G
+-D OR -E OR G
+-D OR -F OR G
+10
+B OR -D OR -E
+B OR -D OR -F
+B OR -D OR G
+-E
+-F
+G
+-C
+-D OR -E
+-D OR -F
+-D OR G
+3
+B OR -D
+{}
+-D
+YES

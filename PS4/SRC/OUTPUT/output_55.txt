@@ -1,0 +1,18 @@
+7
+-B OR -C OR D OR -E OR -F
+-B OR -C OR D OR -G
+-B
+-B OR -E
+-B OR G
+-E OR G
+F
+8
+-C OR D OR -G
+{}
+-B OR -C OR D OR -E
+-B OR -C OR D OR -F
+-C OR D OR -E OR -F
+-B OR -C OR D
+-E
+G
+YES

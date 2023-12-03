@@ -1,0 +1,385 @@
+8
+-A OR B OR -C OR -D
+B OR -C OR -D OR -G
+-A OR B OR -D OR -G
+-A OR B OR -C OR -G
+-B OR D OR E OR G
+-B OR D OR -F OR G
+-A OR -C OR -D OR -G OR -H
+-A OR -C OR -D OR -G
+15
+-C OR -D OR -G OR -H
+-C OR -D OR -G
+-A OR -C OR -D OR -H
+-A OR -C OR -D
+B OR -C OR -D
+-A OR B OR -D
+-A OR B OR -C
+B OR -D OR -G
+B OR -C OR -G
+-A OR -D OR -G OR -H
+-A OR -D OR -G
+-A OR B OR -G
+-A OR -C OR -G OR -H
+-A OR -C OR -G
+-B OR D OR G
+36
+-C OR -D OR -H
+-D OR -G OR -H
+-C OR -G OR -H
+-C OR -D
+-D OR -G
+-C OR -G
+-A OR -B OR -C OR E OR -F OR G OR -H
+-A OR -D OR -H
+-A OR -C OR -H
+-A OR -B OR -C OR E OR G OR -H
+-A OR -B OR -C OR -F OR G OR -H
+-A OR -B OR -C OR G OR -H
+-A OR -B OR -C OR E OR -F OR G
+-A OR -D
+-A OR -C
+-A OR -B OR -C OR E OR G
+-A OR -B OR -C OR -F OR G
+-A OR -B OR -C OR G
+B OR -D
+B OR -C
+-A OR B
+-A OR -C OR D OR E OR -F OR G
+-A OR -C OR D OR E OR G
+-A OR -C OR D OR -F OR G
+-A OR -C OR D OR G
+B OR -G
+-A OR -G OR -H
+-A OR -G
+-A OR -B OR -C OR D OR E OR -F OR -H
+-A OR -B OR -C OR D OR E OR -H
+-A OR -B OR -C OR D OR -F OR -H
+-A OR -B OR -C OR D OR -H
+-A OR -B OR -C OR D OR E OR -F
+-A OR -B OR -C OR D OR E
+-A OR -B OR -C OR D OR -F
+-A OR -B OR -C OR D
+113
+-B OR -C OR E OR -F OR G OR -H
+-B OR -C OR D OR E OR -F OR -H
+-B OR -C OR E OR -F OR G
+-B OR -C OR D OR E OR -F
+-C OR D OR E OR -F OR G
+-D OR -H
+-C OR -H
+-G OR -H
+-D
+-C
+-G
+-B OR -C OR E OR G OR -H
+-B OR -C OR D OR E OR -H
+-B OR -C OR E OR G
+-B OR -C OR D OR E
+-C OR D OR E OR G
+-B OR -C OR -F OR G OR -H
+-B OR -C OR D OR -F OR -H
+-B OR -C OR -F OR G
+-B OR -C OR D OR -F
+-C OR D OR -F OR G
+-A OR -C OR E OR -F OR G OR -H
+-A OR -C OR E OR G OR -H
+-A OR -C OR -F OR G OR -H
+-A OR -C OR G OR -H
+-A OR -C OR E OR -F OR G
+-A OR -C OR E OR G
+-A OR -C OR -F OR G
+-A OR -C OR G
+-A OR -C OR D OR E OR -F OR -H
+-A OR -C OR D OR E OR -H
+-A OR -C OR D OR -F OR -H
+-A OR -C OR D OR -H
+-A OR -C OR D OR E OR -F
+-A OR -C OR D OR E
+-A OR -C OR D OR -F
+-A OR -C OR D
+-B OR -C OR G OR -H
+-B OR -C OR D OR -H
+-B OR -C OR G
+-B OR -C OR D
+-C OR D OR G
+-A OR -B OR E OR -F OR G OR -H
+-A OR -C OR -D OR E OR -F OR G OR -H
+-A OR -B OR -C OR -D OR E OR -F OR -H
+-A OR -B OR -C OR E OR -F OR -H
+-A OR -H
+-A OR -B OR E OR G OR -H
+-A OR -B OR -F OR G OR -H
+-A OR -B OR G OR -H
+-A OR -C OR -D OR E OR G OR -H
+-A OR -B OR -C OR -D OR E OR -H
+-A OR -B OR -C OR E OR -H
+-A OR -C OR -D OR -F OR G OR -H
+-A OR -B OR -C OR -D OR -F OR -H
+-A OR -B OR -C OR -F OR -H
+-A OR -C OR -D OR G OR -H
+-A OR -B OR -C OR -D OR -H
+-A OR -B OR -C OR -H
+-A OR -B OR E OR -F OR G
+-A OR -C OR -D OR E OR -F OR G
+-A OR -B OR -C OR -D OR E OR -F
+-A OR -B OR -C OR E OR -F
+-A
+-A OR -B OR E OR G
+-A OR -B OR -F OR G
+-A OR -B OR G
+-A OR -C OR -D OR E OR G
+-A OR -B OR -C OR -D OR E
+-A OR -B OR -C OR E
+-A OR -C OR -D OR -F OR G
+-A OR -B OR -C OR -D OR -F
+-A OR -B OR -C OR -F
+-A OR -C OR -D OR G
+-A OR -B OR -C OR -D
+-A OR -B OR -C
+B
+-A OR D OR E OR -F OR G
+-A OR D OR E OR G
+-A OR D OR -F OR G
+-A OR D OR G
+-A OR B OR -C OR E OR -F OR G
+-A OR B OR -C OR D OR E OR -F
+-A OR B OR -C OR E OR G
+-A OR B OR -C OR D OR E
+-A OR B OR -C OR -F OR G
+-A OR B OR -C OR D OR -F
+-A OR B OR -C OR G
+-A OR B OR -C OR D
+-A OR -B OR D OR E OR -F OR -H
+-A OR -B OR D OR E OR -H
+-A OR -B OR D OR -F OR -H
+-A OR -B OR D OR -H
+-A OR -B OR D OR E OR -F
+-A OR -B OR D OR E
+-A OR -B OR D OR -F
+-A OR -B OR D
+-A OR -C OR D OR E OR -F OR -G OR -H
+-A OR -B OR -C OR E OR -F OR -G OR -H
+-A OR -C OR D OR E OR -G OR -H
+-A OR -B OR -C OR E OR -G OR -H
+-A OR -C OR D OR -F OR -G OR -H
+-A OR -B OR -C OR -F OR -G OR -H
+-A OR -C OR D OR -G OR -H
+-A OR -B OR -C OR -G OR -H
+-A OR -C OR D OR E OR -F OR -G
+-A OR -B OR -C OR E OR -F OR -G
+-A OR -C OR D OR E OR -G
+-A OR -B OR -C OR E OR -G
+-A OR -C OR D OR -F OR -G
+-A OR -B OR -C OR -F OR -G
+-A OR -C OR D OR -G
+-A OR -B OR -C OR -G
+207
+-B OR E OR -F OR G OR -H
+-B OR D OR E OR -F OR -H
+-B OR E OR -F OR G
+-B OR D OR E OR -F
+D OR E OR -F OR G
+-H
+{}
+-A OR B OR -C OR E OR -F
+-A OR B OR -C OR E
+-A OR B OR -C OR -F
+-B OR E OR G OR -H
+-B OR D OR E OR -H
+-B OR E OR G
+-B OR D OR E
+D OR E OR G
+-B OR -F OR G OR -H
+-B OR D OR -F OR -H
+-B OR -F OR G
+-B OR D OR -F
+D OR -F OR G
+-A OR -C OR -D OR E OR -F OR -H
+-A OR -C OR -D OR E OR -H
+-A OR -C OR -D OR -F OR -H
+-A OR -C OR E OR -F OR -G OR -H
+-A OR -C OR E OR -G OR -H
+-A OR -C OR -F OR -G OR -H
+-A OR B OR -C OR -D OR E OR -F OR -H
+-A OR B OR -C OR E OR -F OR -G OR -H
+-A OR B OR -C OR -D OR E OR -H
+-A OR B OR -C OR E OR -G OR -H
+-A OR B OR -C OR -D OR -F OR -H
+-A OR B OR -C OR -F OR -G OR -H
+-A OR B OR -C OR -D OR -H
+-A OR B OR -C OR -G OR -H
+-A OR -C OR -D OR E OR -F
+-A OR -C OR -D OR E
+-A OR -C OR -D OR -F
+-A OR -C OR E OR -F OR -G
+-A OR -C OR E OR -G
+-A OR -C OR -F OR -G
+-A OR B OR -C OR -D OR E OR -F
+-A OR B OR -C OR E OR -F OR -G
+-A OR B OR -C OR -D OR E
+-A OR B OR -C OR E OR -G
+-A OR B OR -C OR -D OR -F
+-A OR B OR -C OR -F OR -G
+-A OR -C OR E OR -F OR -H
+-A OR -C OR E OR -H
+-A OR -C OR -F OR -H
+-A OR B OR -C OR E OR -F OR -H
+-A OR B OR -C OR E OR -H
+-A OR B OR -C OR -F OR -H
+-A OR B OR -C OR -H
+-A OR -C OR E OR -F
+-A OR -C OR E
+-A OR -C OR -F
+-A OR B OR E OR -F OR G
+-A OR B OR E OR G
+-A OR B OR -F OR G
+-A OR B OR G
+-A OR B OR D OR E OR -F
+-A OR B OR D OR E
+-A OR B OR D OR -F
+-A OR B OR D
+-B OR G OR -H
+-B OR D OR -H
+-B OR G
+-B OR D
+D OR G
+-C OR E OR -F OR G OR -H
+-C OR E OR G OR -H
+-C OR -F OR G OR -H
+-C OR G OR -H
+-C OR D OR E OR -F OR -H
+-C OR D OR E OR -H
+-C OR D OR -F OR -H
+-C OR D OR -H
+-C OR E OR -F OR G
+-C OR E OR G
+-C OR -F OR G
+-C OR G
+-C OR D OR E OR -F
+-C OR D OR E
+-C OR D OR -F
+-C OR D
+-A OR -C OR D OR E OR -F OR G OR -H
+-A OR E OR -F OR G OR -H
+-A OR E OR G OR -H
+-A OR -F OR G OR -H
+-A OR G OR -H
+-A OR -C OR D OR E OR G OR -H
+-A OR -C OR D OR -F OR G OR -H
+-A OR -C OR D OR G OR -H
+-A OR E OR -F OR G
+-A OR E OR G
+-A OR -F OR G
+-A OR G
+-A OR D OR E OR -F OR -H
+-A OR D OR E OR -H
+-A OR D OR -F OR -H
+-A OR D OR -H
+-A OR D OR E OR -F
+-A OR D OR E
+-A OR D OR -F
+-A OR D
+-B OR -C OR -D OR E OR -F OR -H
+-C OR -D OR E OR -F OR G OR -H
+-B OR -C OR E OR -F OR -H
+-B OR -C OR E OR -F OR -G OR -H
+-C OR D OR E OR -F OR -G OR -H
+-B OR -C OR -D OR E OR -F
+-C OR -D OR E OR -F OR G
+-B OR -C OR E OR -F
+-B OR -C OR E OR -F OR -G
+-C OR D OR E OR -F OR -G
+B OR -C OR E OR -F OR G
+B OR -C OR D OR E OR -F
+-B OR -C OR -D OR E OR -H
+-C OR -D OR E OR G OR -H
+-B OR -C OR E OR -H
+-B OR -C OR E OR -G OR -H
+-C OR D OR E OR -G OR -H
+-B OR -C OR -D OR E
+-C OR -D OR E OR G
+-B OR -C OR E
+-B OR -C OR E OR -G
+-C OR D OR E OR -G
+B OR -C OR E OR G
+B OR -C OR D OR E
+-B OR -C OR -D OR -F OR -H
+-C OR -D OR -F OR G OR -H
+-B OR -C OR -F OR -H
+-B OR -C OR -F OR -G OR -H
+-C OR D OR -F OR -G OR -H
+-B OR -C OR -D OR -F
+-C OR -D OR -F OR G
+-B OR -C OR -F
+-B OR -C OR -F OR -G
+-C OR D OR -F OR -G
+B OR -C OR -F OR G
+B OR -C OR D OR -F
+-B OR -C OR -D OR -H
+-C OR -D OR G OR -H
+-B OR -C OR -H
+-B OR -C OR -G OR -H
+-C OR D OR -G OR -H
+-B OR -C OR -D
+-C OR -D OR G
+-B OR -C
+-B OR -C OR -G
+-C OR D OR -G
+B OR -C OR G
+B OR -C OR D
+-A OR -D OR E OR -F OR G OR -H
+-A OR -B OR -D OR E OR -F OR -H
+-A OR -B OR E OR -F OR -H
+-A OR B OR -C OR E OR -F OR G OR -H
+-A OR -C OR -D OR E OR -F OR -G OR -H
+-A OR -D OR E OR G OR -H
+-A OR -B OR -D OR E OR -H
+-A OR -B OR E OR -H
+-A OR -D OR -F OR G OR -H
+-A OR -B OR -D OR -F OR -H
+-A OR -B OR -F OR -H
+-A OR -D OR G OR -H
+-A OR -B OR -D OR -H
+-A OR -B OR -H
+-A OR B OR -C OR E OR G OR -H
+-A OR -C OR -D OR E OR -G OR -H
+-A OR B OR -C OR -F OR G OR -H
+-A OR -C OR -D OR -F OR -G OR -H
+-A OR B OR -C OR G OR -H
+-A OR -D OR E OR -F OR G
+-A OR -B OR -D OR E OR -F
+-A OR -B OR E OR -F
+-A OR -C OR -D OR E OR -F OR -G
+-A OR -D OR E OR G
+-A OR -B OR -D OR E
+-A OR -B OR E
+-A OR -D OR -F OR G
+-A OR -B OR -D OR -F
+-A OR -B OR -F
+-A OR -D OR G
+-A OR -B OR -D
+-A OR -B
+-A OR -C OR -D OR E OR -G
+-A OR -C OR -D OR -F OR -G
+-A OR -B OR E OR -F OR -G OR -H
+-A OR D OR E OR -F OR -G OR -H
+-A OR -B OR E OR -G OR -H
+-A OR D OR E OR -G OR -H
+-A OR -B OR -F OR -G OR -H
+-A OR D OR -F OR -G OR -H
+-A OR -B OR -G OR -H
+-A OR D OR -G OR -H
+-A OR -B OR E OR -F OR -G
+-A OR D OR E OR -F OR -G
+-A OR -B OR E OR -G
+-A OR D OR E OR -G
+-A OR -B OR -F OR -G
+-A OR D OR -F OR -G
+-A OR -B OR -G
+-A OR D OR -G
+-A OR B OR -C OR D OR E OR -F OR -H
+-A OR B OR -C OR D OR E OR -H
+-A OR B OR -C OR D OR -F OR -H
+-A OR B OR -C OR D OR -H
+YES

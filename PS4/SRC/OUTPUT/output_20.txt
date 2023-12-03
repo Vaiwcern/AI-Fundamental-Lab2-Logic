@@ -1,0 +1,96 @@
+9
+-C OR D OR -G
+A OR B OR -C OR -F OR -G
+-C OR -H
+A OR B OR -G OR H
+A OR B OR -F OR H
+A OR B OR -F OR -G
+A OR -F OR -G OR H
+B OR -F OR -G OR H
+-C OR D
+16
+A OR B OR -C OR -G
+A OR -C OR -F OR -G
+B OR -C OR -F OR -G
+A OR -G OR H
+A OR -F OR H
+A OR -F OR -G
+-F OR -G OR H
+B OR -G OR H
+B OR -F OR H
+B OR -F OR -G
+A OR B OR -G
+A OR B OR -F
+A OR B OR -C OR -F
+A OR F OR -G OR H
+A OR B OR H
+A OR -B OR -G OR H
+27
+A OR -C OR -G
+B OR -C OR -G
+A OR -C OR F OR -G
+A OR -B OR -C OR -G
+-C OR -F OR -G
+-G OR H
+-F OR H
+-F OR -G
+A OR -G
+A OR -F
+A OR -C OR -F
+A OR H
+B OR -G
+B OR -F
+B OR -C OR -F
+F OR -G OR H
+B OR H
+-B OR -G OR H
+A OR F OR -G
+A OR B
+A OR -B OR -G
+A OR B OR -C OR -G OR H
+A OR B OR -C
+A OR -C OR -G OR H
+A OR -B OR H
+A OR F OR H
+A OR -C OR -F OR -G OR H
+27
+-C OR -G
+-C OR F OR -G
+-G
+-F
+-C OR -F
+H
+A
+A OR -C
+-B OR -C OR -G
+F OR -G
+B
+-B OR -G
+B OR -C OR -G OR H
+B OR -C
+-C OR -G OR H
+-B OR H
+F OR H
+-C OR -F OR -G OR H
+A OR -B
+A OR F
+A OR -B OR -C
+A OR -C OR F
+A OR B OR -C OR H
+A OR -C OR H
+A OR -C OR F OR -G OR H
+A OR -C OR -F OR H
+A OR -B OR -C OR -G OR H
+11
+{}
+-C
+-B OR -C
+-C OR F
+B OR -C OR H
+-C OR H
+-C OR F OR -G OR H
+-C OR -F OR H
+-B OR -C OR -G OR H
+A OR -C OR F OR H
+A OR -B OR -C OR H
+YES

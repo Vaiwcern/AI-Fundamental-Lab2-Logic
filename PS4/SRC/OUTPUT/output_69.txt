@@ -1,0 +1,35 @@
+33
+A OR -C OR -D OR -F
+A OR D OR F OR G OR -H
+A OR D OR -E OR F OR G
+A OR G OR H
+A OR -B OR -C OR D OR -F
+A OR C OR D OR -E OR F OR -H
+A OR C OR -G
+A OR C OR -H
+-C OR G
+C OR -G OR -H
+C OR D OR F OR -H
+{}
+C OR D OR -E OR -G OR -H
+C OR D OR -E OR F OR -G OR -H
+-A OR C OR D OR -E OR F
+-A OR C OR D OR -E
+-A OR C OR D OR -G
+C OR D OR -E OR -G
+-A OR C OR -E OR -F OR -G
+-B OR -F OR -G
+-D OR -F
+A OR C OR D OR F
+A OR -B OR C OR D OR -G OR -H
+-B OR D OR -F
+A OR -G OR -H
+-A OR D OR -E OR -G
+A OR D OR F OR -H
+D OR -E OR F OR G
+H
+C OR D OR F OR G
+-A OR C OR -E OR -G
+A OR C OR F OR -H
+C OR -E OR F OR G
+YES
