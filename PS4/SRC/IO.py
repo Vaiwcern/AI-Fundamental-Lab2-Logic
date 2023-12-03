@@ -22,7 +22,6 @@ class IO:
         self.output_file = open(output_file_path, 'w')
         self.line = 0
 
-
     def __enter__(self):
         return self
 
